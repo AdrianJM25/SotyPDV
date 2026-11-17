@@ -1,0 +1,16 @@
+           Mi Negocio           
+         PUNTO DE VENTA         
+--------------------------------
+Folio: TKT-000004
+Fecha: 2026-10-18 23:41
+Cajero: Super Administrador
+--------------------------------
+5 x Coca Cola Regular 600ml
+                          $90.00
+--------------------------------
+TOTAL:                    $90.00
+Pagado (Efectivo):       $100.00
+Cambio:                   $10.00
+ 
+    ¡Gracias por su compra!     
+ 

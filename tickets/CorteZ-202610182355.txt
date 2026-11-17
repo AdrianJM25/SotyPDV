@@ -1,0 +1,16 @@
+           Mi Negocio           
+       CORTE DE CAJA (Z)        
+--------------------------------
+Fecha: 2026-10-18 23:55
+Caja: Caja Principal
+Cajero: Super Administrador
+--------------------------------
+Efectivo Esperado:       $764.00
+Efectivo Contado:        $300.00
+--------------------------------
+FALTANTE:               -$464.00
+ 
+        Firma del Cajero        
+ 
+     ______________________     
+ 

@@ -1,0 +1,48 @@
+2026-11-13 13:55:36,890 | ERROR   | soty.main | Error de interfaz
+Traceback (most recent call last):
+  File "C:\Python314\Lib\tkinter\__init__.py", line 2093, in __call__
+    return self.func(*args)
+           ~~~~~~~~~^^^^^^^
+  File "C:\Users\usuario\AppData\Roaming\Python\Python314\site-packages\customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+    self._command()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\usuario\Documents\GitHub\SotyPDV\views\dashboard_view.py", line 121, in <lambda>
+    lambda m=mod_id: self.show_module(m))
+                     ~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\usuario\Documents\GitHub\SotyPDV\views\dashboard_view.py", line 165, in show_module
+    self.current_content = TerminalView(
+                           ~~~~~~~~~~~~^
+        self.content_frame,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        auth_controller=self.app_controller.auth_controller
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: TerminalView.__init__() got an unexpected keyword argument 'discount_controller'
+2026-11-13 13:56:02,037 | INFO    | controllers.auth_controller | Login exitoso: adrian (Administrador)
+2026-11-13 13:56:02,276 | INFO    | soty.main | Turno dc5e515b-4fd2-4019-90d4-255c3acc9c3a recuperado por adrian
+2026-11-13 13:56:02,827 | ERROR   | soty.main | Error de interfaz
+Traceback (most recent call last):
+  File "C:\Python314\Lib\tkinter\__init__.py", line 2093, in __call__
+    return self.func(*args)
+           ~~~~~~~~~^^^^^^^
+  File "C:\Users\usuario\AppData\Roaming\Python\Python314\site-packages\customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+    self._command()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\usuario\Documents\GitHub\SotyPDV\views\dashboard_view.py", line 121, in <lambda>
+    lambda m=mod_id: self.show_module(m))
+                     ~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\usuario\Documents\GitHub\SotyPDV\views\dashboard_view.py", line 165, in show_module
+    self.current_content = TerminalView(
+                           ~~~~~~~~~~~~^
+        self.content_frame,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        auth_controller=self.app_controller.auth_controller
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: TerminalView.__init__() got an unexpected keyword argument 'discount_controller'
+2026-11-13 14:03:33,687 | INFO    | controllers.auth_controller | Login exitoso: adrian (Administrador)
+2026-11-13 14:03:33,922 | INFO    | soty.main | Turno dc5e515b-4fd2-4019-90d4-255c3acc9c3a recuperado por adrian
